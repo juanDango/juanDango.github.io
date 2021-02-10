@@ -114,3 +114,14 @@ footer p{
 p{
     font-family: 'Roboto', sans-serif;
 }
+
+.boton{
+    margin:0.2rem;
+}
+
+.boton:hover{
+    border-style: solid;
+    border-width: 0.3rem;
+    background-color:tomato;
+    border-color: #EAE8DB;
+}
