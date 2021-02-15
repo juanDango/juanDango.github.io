@@ -14,6 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--La código es correcto, tiene secciones claramente diferenciadas y es consistente. 
+        Es necesario revisar los errores de la validación (ValidacionHTML.png) porque tiene en total 22 errores. 
+        La página se vería mucho mejor sin los márgenes que tiene a derecha y a izquierda.
+        Creo que podrías tener un gran container para toda la página y hacer una sección con el nav y otra con el footer.-->
     <div class = "container">
         <div class = "row">
             <div class = "col-12">
@@ -25,6 +29,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
                         <a class="nav-link" href="#AboutMe">About Me</a>
+                        <!--Yo no pondría etiquetas tan largar en el nav, podrías poner por ejemplo "projects, personal life, academics" o algo así-->
                         <a class="nav-link" href="#PersonalProjects">Personal Projects</a>
                         <a class="nav-link" href="#Hobbies">My personal life</a>
                         <a class="nav-link" href="#Education">My academic life</a>
@@ -36,6 +41,9 @@
     </div>
     <div class = "container">
         <main>
+            <!--Me parece que esta sección se ve bien en pequeño o mediano formato pero para pantalla grande creo que podrías
+                poner la foto a un lado y el texto a otro o poner la foto más chiquita. 
+                También pondría los íconos de las redes sociales mucho más chiquitos.-->
             <section id = "AboutMe">
             <div class = "row">
                 <div class = "col"><h1 class = "center">Juan Daniel Castrellon</h1></div>
@@ -75,6 +83,9 @@
             </div>
             </section>
             <hr>
+            <!--Creo que la foto de los proyectos podría ser un poco más pequeña para que se pueda ver en toda la página en grande.
+                También le pondría un poco más descripción a cada proyecto.
+                Le quitaría la decoración (la línea) a Previous y Next.-->
             <section id = "PersonalProjects">
                 <div class = "row">
                     <div class ="col-12">
@@ -124,6 +135,8 @@
                 </div>
             </section>
             <hr>
+            <!--Sería chevere que el botón para abrir la descripción no sea solo el texto sino todo el rectángulo.
+                Creo que los lenguajes de programación no deberían ir en esta sección.--->
             <div class="VidaPersonal">
             <section id = "Hobbies">
                 <h1>My personal life</h1>
@@ -190,7 +203,8 @@
                         <div class="card">
                             <div class="card-header boton" id="headingFive">
                                 <h2 class="mb-0">
-                                    <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseFive"><p>programming</p></button>                     
+                                    <!--Aquí puse una P mayúscula-->
+                                    <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseFive"><p>Programming</p></button>                     
                                 </h2>
                             </div>
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
@@ -211,6 +225,8 @@
                 </div>
             </section>
             <hr>
+            <!--Creo que esto se podría mostrar de otra forma que no sea una tabla para que se vea mejor graficamente.
+                También me parece importante que resalten las carreras o lo títulos.-->
             <section id = "Education">
                 <div class = "row Estudios">
                     <h1>Education</h1>
@@ -237,6 +253,7 @@
         </main>
     </div>
     <hr>
+    <!--Me parece que esta parte no combiana mucho con el resto porque es la única parte con fondo blanco.-->
     <footer>
         <h6>Juan Daniel Castrellón</h6>
         <p>Tel: +57 3204065571</p>
@@ -244,4 +261,5 @@
         <br>
     </footer>
 </body>
+<!--No le pondría esto, no cuadra.-->
 </html># juanDango.github.io
