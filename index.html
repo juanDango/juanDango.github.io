@@ -14,9 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--poner un par de comentarios, para separar las secciones, tienes 22 errores en html-->
     <div class = "container">
         <div class = "row">
             <div class = "col-12">
+                <!--personalmente cambiaria el color rojo por uno un poco mas opaco, porque sino hace mucho contraste con el blanco y el negro de las letras tampoco queda muy bien 
+                sobre ese color.-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-faded">
                     <a class="navbar-brand title" href="#">JuanDango</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +37,7 @@
             </div>
         </div>
     </div>
+    <!--no se para que usas este div si perfectamente pudiste usar la etiqueta main como el container asi se tendria una vision mas clara de las secciones--> 
     <div class = "container">
         <main>
             <section id = "AboutMe">
@@ -42,6 +46,7 @@
             </div>
             <div class = "row">
                 <div class = "col-12">
+                    <!--Por lo general los width y height suelen estar en unidades de porcentaje de pantalla o viewport-->
                     <img id = "profile" src="imagenes/Fotito.jpg" width="500rem">
                 </div>
             </div>
@@ -155,6 +160,8 @@
                         <div class="card">
                             <div class="card-header boton" id="headingTwo">
                                 <h2 class="mb-0">
+                                    <!--estos botones podrian ser cambiados por unas etiquetas a y asi quitar el parrafo para que toda la superficie de la tarjeta
+                                    genere el trigger de colapso, va para todos los botones-->
                                     <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo"><p>VideoGames</p></button>
                                 </h2>
                             </div>
@@ -213,6 +220,7 @@
             <hr>
             <section id = "Education">
                 <div class = "row Estudios">
+                    <!--podrias usar una tabla mas bonita de boostrap, esta hace que el resto de la pagina pierda un poco de encanto-->
                     <h1>Education</h1>
                     <table class="table table-bordered">
                         <thead>
