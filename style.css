@@ -1,127 +1,151 @@
-*{
-    margin: 0%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Montserrat&family=Poppins:wght@600&display=swap');
 
-body{
-    background-color: #F2B00C;
-}
-
-section{
-    margin: 0;
-    background-color: #EAE8DB;
+.top{
+    background: #e7ecef;
 }
 
 nav{
-    background-color: #E8450C;
-    padding: 1rem;
-    margin: 0;
-}
-
-nav a{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 20%;
-    color: #FFF;
-    font-family: sans-serif;
-}
-
-nav a:hover{
-    color: #7594EB;
-    text-decoration:wavy;
-}
-h1{
-    font-family: 'Pangolin', cursive;
-    font-weight: bolder;
-    padding: 0px 2rem 2rem;
-    text-align: center;
-}
-
-.center{
-    text-align: center;
-}
-
-#profile{
-    border-radius: 50%;  
-}
-
-.social:hover{
-    border-color: wheat;
-    border-style: solid;
-    border-width: 1rem;
+    background: #274c77;
+    color: white;
 }
 
 .social{
+    margin: 0.5rem;
+    margin-bottom: 0rem;
+    width: 2.5rem;
+}
+
+.banner{
+    text-align: center;
+    background-image: url(imagenes/Banner.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #000;
+    font-weight: 900;
+}
+
+.divBanner{
+    width: 40rem;
+    margin: auto;
+    height:4rem
+}
+
+h1{
+    padding-left:0.5em;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+h2{
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.insideBanner{
+    padding: 12rem;
+}
+
+.about{
+    text-align: center;
+    background: #c0c0c0;
+    padding: 2rem;
+}
+
+.profile{
+    width: 17rem;
+    border-radius: 50%;
+    margin: 1rem;
+    padding: 0;
+    border: 0.5rem solid;
+    border-color: #8b8c89;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    text-align: justify;
+}
+
+.ab{
+    margin: 1rem;
+    margin-left: 1rem;
+}
+
+#Studies{
+    text-align: center;
+    padding: 2rem;
+    background: #495057;
+    color: #fff
+}
+
+#Experience{
+    text-align: center;
+    padding: 2rem;
+    background: #c5c3c6;
+}
+
+#Projects{
+    text-align: center;
+    padding: 2rem;
+    background: #dee2ff;
+}
+
+.university{
+    width: 10rem;
+}
+
+.botonModal{
+    background-color: #6096ba; /* Green */
+    border-radius: 30%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.social:hover{
+    border-color: white;
+    border-style: solid;
+    border-width: 0.2rem;
     border-radius: 50%;
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.hola:hover{
+    border-color: white;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-radius: 50%;
 }
 
-#AboutMe{
-    background-color: #EAE8DB;
-    padding: 3em;
-    margin: 0;
-}
-#AboutMe p{
-    text-align: center;
-}
-
-.carr{
-    width: 20%;
-}
-
-.restaurapp{
-    padding: 2em;
-    background-color:tomato;
-    text-align: center;
-    padding-top: 2em;;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-#PersonalProjects{
-    background-color: #EAE8DB;
-    padding: 2em;
-    margin: 0;
-}
-
-.VidaPersonal{
-    background-color: #EAE8DB;
-    padding: 2em;
-    margin: 0;
-}
-
-.Estudios{
-    background-color: #EAE8DB;
-    padding: 1em;
-    margin: 0;
+.uni{
+    color: #000;
 }
 
 footer{
+    padding-top: 1em;
     text-align: center;
 }
-footer p{
-    margin: 0rem;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center
 }
 
-.title{
-    font-family: 'Pangolin', cursive;
+.study{
+    margin-bottom: 2rem;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
+.link{
+    padding: 0.5rem;
 }
 
-.boton{
-    margin:0.2rem;
+.link:hover{
+    border-radius: 30%;
+    background: white;
 }
 
-.boton:hover{
-    border-style: solid;
-    border-width: 0.3rem;
-    background-color:tomato;
-    border-color: #EAE8DB;
+.experience{
+    margin: 2rem
 }
