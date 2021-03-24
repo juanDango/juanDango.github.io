@@ -89,6 +89,12 @@ h2{
     background: #dee2ff;
 }
 
+#More{
+    text-align: center;
+    padding: 2rem;
+    background: #c5c3c6;
+}
+
 .university{
     width: 10rem;
 }
