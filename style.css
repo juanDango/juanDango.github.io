@@ -95,6 +95,10 @@ h2{
     background: #c5c3c6;
 }
 
+#interests{
+    text-align: justify;
+}
+
 .university{
     width: 10rem;
 }
@@ -164,4 +168,8 @@ body{
 
 .experience{
     margin: 2rem
+}
+
+.checked {
+    color: orange;
 }
