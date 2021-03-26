@@ -173,3 +173,12 @@ body{
 .checked {
     color: orange;
 }
+
+.Strenghts{
+    border: solid;
+    border-color:#274c77;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30%;
+    margin-top: 2rem;
+}
