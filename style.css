@@ -1,184 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Montserrat&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Courier+Prime&display=swap');
 
-.top{
-    background: #e7ecef;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav{
+    background: #322C5C;
 }
 
 nav{
-    background: #274c77;
-    color: white;
+    color: #FFFFFF;
+    font-family: 'Courier Prime', monospace;
 }
 
-.social{
-    margin: 0.5rem;
-    margin-bottom: 0rem;
-    width: 2.5rem;
+nav li{
+    font-size: 120%;
+    display: inline;
+    padding-right: 1em;
 }
 
-.banner{
-    text-align: center;
-    background-image: url(imagenes/Banner.png);
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav li:hover{
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+li a:hover{
+    color: #FFFFFF;
+}
+
+#name{
+    width: 1em;
+    font-size: 150%;
+}
+
+#name:hover{
+    font-size: 150%;
+}
+
+#intro{
+    background: url('imagenes/tragic\ darkness.png') no-repeat; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    color: #000;
-    font-weight: 900;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    height: 100%;
+    filter:opacity(80%)
 }
 
-.divBanner{
-    width: 40rem;
+.Frase{
+    background: rgba(255, 255, 255, 0.9);
+    width: 60%;
+    height: 100%;
     margin: auto;
-    height:4rem
-}
-
-h1{
-    padding-left:0.5em;
-    font-family: 'Averia Serif Libre', cursive;
-}
-
-h2{
-    font-family: 'Averia Serif Libre', cursive;
-}
-
-.insideBanner{
-    padding: 12rem;
-}
-
-.about{
     text-align: center;
-    background: #c0c0c0;
-    padding: 2rem;
+    font-family: 'Courier Prime', monospace;
 }
 
-.profile{
-    width: 90%;
-    border-radius: 50%;
-    margin: 1rem;
-    padding: 0;
-    border: 0.5rem solid;
-    border-color: #8b8c89;
-    margin-left: auto;
-    margin-right: auto;
+.Frase h1{
+    font-size: 300%;
+    padding: 1em 1em;
 }
 
-.left{
-    text-align: justify;
+
+#about_me{
+    background: #E6A179;
+    padding-bottom: 5%;
 }
 
-.ab{
-    margin: 1rem;
-    margin-left: 1rem;
-}
-
-#Studies{
-    text-align: center;
-    padding: 2rem;
-    background: #495057;
-    color: #fff
-}
-
-#Experience{
-    text-align: center;
-    padding: 2rem;
-    background: #c5c3c6;
-}
-
-#Projects{
-    text-align: center;
-    padding: 2rem;
-    background: #dee2ff;
-}
-
-#More{
-    text-align: center;
-    padding: 2rem;
-    background: #c5c3c6;
-}
-
-#interests{
-    text-align: justify;
-}
-
-.university{
-    width: 10rem;
-}
-
-.social:hover{
-    border-color: white;
-    border-style: solid;
-    border-width: 0.2rem;
-    border-radius: 50%;
-}
-
-.botModal{
-    width:15rem;
-    height:15rem;
-    border-radius: 50%;
-    background: #274c77;
-    border: none;
-    box-shadow: 0 1em 2em 0 rgba(85, 85, 85, 0.2), 0 1em 2em 0 rgba(0, 0, 0, 0.5);
-}
-
-.title{
-    padding-top: 0.5rem;
-    font-family: 'Averia Serif Libre', cursive; 
-}
-
-.botModal:hover{
-    border-color: white;
-    border-style: solid;
-    border-width: 0.2rem;
-    border-radius: 50%;
-}
-
-.caption{
-    color:#000
-}
-
-.moda{
-    width: 9rem;
-}
-
-.uni{
-    color: #000;
-}
-
-footer{
-    padding-top: 1em;
-    text-align: center;
-}
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center
-}
-
-.study{
-    margin-bottom: 2rem;
-}
-
-.link{
-    padding: 0.5rem;
-}
-
-.link:hover{
-    border-radius: 30%;
+.info .about_info{
+    position: relative;
     background: white;
+    width: 70%;
+    height: 110%;
+    top: -5em;
+    right: -15em;
+    margin-bottom: 10em;
 }
 
-.experience{
-    margin: 2rem
+.about_info img{
+    position: relative;
+    top: 2em;
+    right: 15em;
+    float: left;
 }
 
-.checked {
-    color: orange;
-}
-
-.Strenghts{
-    border: solid;
-    border-color:#274c77;
+.about_moi{
+    position: relative;
+    right: 11em;
+    top: 5em;
+    width: 110%;
+    height: fit-content;
     text-align: center;
-    padding: 1rem;
-    border-radius: 30%;
-    margin-top: 2rem;
+    font-family: 'Courier Prime', monospace;
+}
+
+.about_moi h1{
+    font-size: 5em;
+}
+
+#work_experience{
+    filter:opacity(80%);
+    background: url('imagenes/ImageSphere.png') no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.work{
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    font-family: 'Courier Prime', monospace;
+    padding: 1em;
+    width: 120%;
+    height: 100%;
+} 
+
+.work .left{
+    opacity: 80%;
+    position: relative;
+    top: 3em;
+    right: 3em;
+    width: 130%;
+}
+
+.work .right{
+    opacity: 80%;
+    position: relative;
+    top: 3em;
+    left: 0.1em;
+    width: 130%;
+}
+
+.work p{
+    position: relative;
+    top: 2em;
+    text-align: left;
+}
+
+.work h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.main_skills .col{
+    background-color: #322C5C;
+}
+
+.skills{
+    margin: auto;
+    background: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    margin-top: 5em;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.skills span{
+    font-size: 2em;
+}
+
+.main_skills img{
+    width: 105%;
 }
